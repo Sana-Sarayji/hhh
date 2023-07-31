@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,15 +7,59 @@
     <link rel="shortcut icon" href="img/tree-736885_1280.jpg">
 </head>
 <body>
-    <form action="#" method="post">
-   User name: <input type="text" name="sarah" id="1">
+    <FIeldset>
+        <LEgend>PERSONAL INFORMATION</LEgend>
+        <DIV style="padding: 20px;"></DIV>
+    <form action="#" method="post" target="_self" enctype="multipart/form-data" autocomplete="off" novalidate>
+        <LAbel for="1"> User name:</LAbel>
+        <input type="text" name="username" id="1">
    <br>
-   password: <input type="password" name="my pass" id="12">
+   <LAbel for="12">Password:</LAbel>
+<input type="password" name="my pass" id="12">
    <input type="submit" value="send ">
    <br>
 <input type="radio" name="gender" id="0"> female <label for="0"></label>
 <br>
 <input type="radio" name="gender" id="1"> male <label for="1"></label>
+</form>
+<form action="#" method="post" target="_self" enctype="multipart/form-data" autocomplete="on" >
+   <LAbel for="2">email:</LAbel>
+
+<input type="url" name="my email" id="2">
+<br>
+   <LAbel for="13">Password:</LAbel>
+   <input type="password" name="my pass" id="13">
+   <input type="submit" value="send ">
+   <br>
+</FIeldset>
+<fieldset>
+    <LEgend>TRANSPORTATION</LEgend>
+    <input type="radio" name="favorite" id="0"> car <label for="0"></label>
+    <br>
+    <input type="radio" name="favorite" id="1"> metro <label for="1"></label>
+</fieldset>
+<fieldset>
+    <LEgend>LANGUAGE</LEgend>
+    <input type="radio" id="html" name="fav lang" value="HTML">
+    <label for="html" >HTML</label>
+    <br>
+    <input type="radio" id="css" name="fav lang" value="CSS">
+    <label for="css" >CSS</label>
+    <br>
+    <input type="radio" id="java" name="fav lang" value="JAVASCRIPT">
+    <label for="java" >JAVASCRIPT</label>
+    <br>
+</fieldset>
+<FIeldset>
+    <LEgend>AGE</LEgend>
+    <input type="checkbox" id="20-30" name="AGE" value="BETWEEN 20 AND 30">
+    <label for="20-30" >BETWEEN 20 AND 30</label>
+    <br>
+    <input type="checkbox" id="10-20" name="AGE" value="BETWEEN 10 AND 20">
+    <label for="10-20" >BETWEEN 10 AND 20</label>
+
+
+</FIeldset>
 </form>
 </body>
 </html>
