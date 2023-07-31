@@ -57,9 +57,32 @@
     <br>
     <input type="checkbox" id="10-20" name="AGE" value="BETWEEN 10 AND 20">
     <label for="10-20" >BETWEEN 10 AND 20</label>
-
-
 </FIeldset>
-</form>
+<label for="favcolor">FAVORITE COLOR</label>
+<input type="color" id="favcolor" name="favcolor" value="#000000">
+<br>
+<label for="datemax">CHOOSE DATE BETWEEN 1900 AND 2200</label>
+<input type="date" id="datemax" name="datemax" max="2200-12-31" min="1900-12-31">
+<br>
+<label for="time">CHOOSE TIME</label>
+<input type="time" id="time" name="time" >
+<br>
+<label for="quantity">QUANTITY</label>
+<input type="number" id="quantity" name="quantity" min="0" max="1000">
+<br>
+<label for="like percentage">LIKE PERCENTAGE</label>
+<input type="range" id="like percentage" name="like percentage" min="0" max="100">
+<br>
+<label for="tel num">ENTER TELEPHONE NUMBER</label>
+<input type="tel" id="tel num" name="tel num" pattern="[0-9]{1}">
+<fieldset>
+    <legend>FILE SET</legend>
+    <label for="img">CHHOSE AN IMAGE</label>
+    <input type="file" id="img" name="img" accept="IMAGE/*">
+    <br>
+    <label for="video">CHOOSE A VIDEO</label>
+<input type="file" id="video" name="video" accept="video/*" multiple>
+
+</fieldset>
 </body>
 </html>
